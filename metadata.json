@@ -1,0 +1,6 @@
+{
+  "name": "RanchoJá - Comparador Inteligente de Supermercados",
+  "description": "Economize até 35% no supermercado em Passo Fundo e região com o RanchoJá. Comparador de preços em tempo real, listas inteligentes e modo no mercado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

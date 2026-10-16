@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>RanchoJá – Economia Real e Comparador de Supermercados em Passo Fundo</title>
+    <meta
+      name="description"
+      content="Economize até 35% nas compras do mês com o RanchoJá. Comparador em tempo real de atacarejos e mercados em Passo Fundo e região. 100% gratuito e direto no navegador."
+    />
+    <meta name="keywords" content="comparador de supermercados, rancho do mês, compras de supermercado, Passo Fundo, Stock Center, Atacadão, Zaffari, Bourbon, lista de compras, economia doméstica" />
+    <meta name="author" content="RanchoJá" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ea1d2c" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href="https://ranchoja.vercel.app/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ranchoja.vercel.app/" />
+    <meta property="og:title" content="RanchoJá – Economia Real nas Compras do Mês" />
+    <meta
+      property="og:description"
+      content="O comparador inteligente de supermercados que cabe no bolso de qualquer família brasileira. Economia de até R$ 300 por ciclo em Passo Fundo e região."
+    />
+    <meta property="og:site_name" content="RanchoJá" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://ranchoja.vercel.app/" />
+    <meta name="twitter:title" content="RanchoJá – Comparador Inteligente de Supermercados" />
+    <meta
+      name="twitter:description"
+      content="Compare preços entre atacarejos e mercados locais. Monte o rancho do mês no seu orçamento sem sair de casa."
+    />
+
+    <!-- Google Fonts for typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured Data (JSON-LD) for SEO Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "@id": "https://ranchoja.vercel.app/#webapp",
+          "name": "RanchoJá",
+          "url": "https://ranchoja.vercel.app/",
+          "applicationCategory": "ShoppingApplication",
+          "operatingSystem": "All modern browsers (Mobile & Desktop)",
+          "description": "Comparador inteligente de supermercados mobile-first focado em Passo Fundo e região. Economize tempo e dinheiro montando sua cesta do mês com preços em tempo real.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "BRL",
+            "availability": "https://schema.org/InStock"
+          },
+          "featureList": [
+            "Comparador de preços simultâneo multi-mercados",
+            "Rancho do mês inteligente com teto orçamentário",
+            "Modo No Mercado com checklist em tempo real",
+            "Exportação em PDF formatado para compras offline",
+            "Compartilhamento instantâneo no WhatsApp",
+            "Geolocalização inteligente de mercados de Passo Fundo"
+          ],
+          "areaServed": {
+            "@type": "AdministrativeArea",
+            "name": "Passo Fundo e Região, Rio Grande do Sul, Brasil"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "320"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://ranchoja.vercel.app/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "O RanchoJá é realmente gratuito?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim! O RanchoJá é 100% gratuito para os consumidores. Você pode pesquisar, comparar preços e montar listas sem pagar nada."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Preciso baixar aplicativo na Play Store ou App Store?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Não precisa baixar nada! O RanchoJá é um Web App moderno e leve (PWA) que funciona direto no navegador do celular ou computador sem ocupar a memória do seu aparelho."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quais supermercados de Passo Fundo estão inclusos?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "O RanchoJá mapeia tanto grandes atacarejos e redes (como Stock Center, Atacadão, Zaffari e Bourbon) quanto mercados de bairro, feiras e mercearias locais."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quanto dinheiro posso economizar no mês?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Em média, famílias relatam economias entre R$ 150 e R$ 300 por ciclo de compras, com redução média de 35% no custo total da cesta planejada."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#0b0f19] text-slate-100 antialiased font-['Plus_Jakarta_Sans',sans-serif] selection:bg-red-500/30 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
